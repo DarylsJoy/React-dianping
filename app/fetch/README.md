@@ -1,1 +1,1 @@
-get / post 数据
+使用fetch 来 get / post 数据
