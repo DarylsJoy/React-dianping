@@ -1,7 +1,6 @@
 import React from 'react'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
 import ListItem from './Item/index'
-import './style.less'
 
 class ListComponent extends React.Component {
   constructor(props, context) {
