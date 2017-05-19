@@ -31,15 +31,15 @@ class SearchInput extends React.Component {
     })
   }
 
+  // 监控变化
   ChangeHandle(e) {
-    // 监控变化
     this.setState({
       value: e.target.value
     })
   }
 
+  // 监控 enter 事件
   KeyUpHandle(e) {
-    // 监控 enter 事件
     if (e.keyCode !== 13) {
       return
     }

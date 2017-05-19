@@ -1,3 +1,3 @@
-# React-dianping
+# react-dianping
 
 开发中

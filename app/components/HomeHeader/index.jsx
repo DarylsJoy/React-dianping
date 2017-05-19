@@ -36,6 +36,7 @@ class HomeHeader extends React.Component {
     )
   }
 
+  // 转向搜索结果页
   enterHandle(value) {
     hashHistory.push('/search/all/' + encodeURIComponent(value))
   }

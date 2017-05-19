@@ -117,8 +117,6 @@ class SearchList extends React.Component {
   }
 }
 
-// -------------------redux react 绑定--------------------
-
 function mapStateToProps(state) {
   return {
     userinfo: state.userinfo
