@@ -2,7 +2,7 @@
 
 使用React全家桶开发，无后台数据处理，仅用koa做mock
 
-开启mock(3000端口)
+运行koa(3000端口)
 ```
 npm run mock
 ```
