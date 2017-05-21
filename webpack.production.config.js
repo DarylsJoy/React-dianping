@@ -6,7 +6,7 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 module.exports = {
   entry: {
     app: path.resolve(__dirname, 'app/index.jsx'),
-    // 将 第三方依赖 单独打包
+    // 将第三方依赖单独打包
     vendor: [
       'react', 
       'react-dom', 
