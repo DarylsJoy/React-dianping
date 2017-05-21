@@ -4,6 +4,8 @@
 
 [demo](http://demo.daryldong.com/React-dianping/)
 为了上传服务器方便（偷个懒），服务器上没有启动koa模拟数据，demo中均为静态数据，控制台报错无视即可。
+
+可使用Chrome浏览器模拟移动端访问。
  
 运行koa(3000端口)
 ```
