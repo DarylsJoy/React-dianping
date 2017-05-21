@@ -23,8 +23,7 @@ export function post(url, paramsObj) {
         credentials: 'include',
         headers: {
             'Accept': 'application/json, text/plain, */*',
-            'Content-Type': 'application/x-www-form-urlencoded',
-            'Connection': 'close'
+            'Content-Type': 'application/x-www-form-urlencoded'
         },
         body: obj2params(paramsObj)
     });
